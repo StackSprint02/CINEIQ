@@ -22,3 +22,20 @@ Content discovery on modern streaming platforms is often opaque, biased toward p
    ```bash
    git clone <your-github-link>
    cd cineiq
+Install dependencies:
+
+Bash
+pip install -r requirements.txt
+Start the FastAPI Backend:
+
+Bash
+uvicorn api.main:app --reload --port 8001
+Start the Streamlit Dashboard (in a new terminal):
+
+Bash
+python -m streamlit run app/dashboard.py
+Dataset Used
+10,000 Movies Dataset: A unified subset containing text overviews, genres, user ratings, and reviews to ensure seamless ID mapping and highly efficient computational inference across the hybrid model architecture.
+
+
+Once you have saved that file, you are ready to open your terminal and run those `git` commands I gave you earlier to upload everything to GitHub!
