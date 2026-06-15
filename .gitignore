@@ -1,0 +1,6 @@
+data/
+models/
+__pycache__/
+*.pyc
+.env
+10000 Credits Data
