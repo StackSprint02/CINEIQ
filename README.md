@@ -37,5 +37,3 @@ python -m streamlit run app/dashboard.py
 Dataset Used
 10,000 Movies Dataset: A unified subset containing text overviews, genres, user ratings, and reviews to ensure seamless ID mapping and highly efficient computational inference across the hybrid model architecture.
 
-
-Once you have saved that file, you are ready to open your terminal and run those `git` commands I gave you earlier to upload everything to GitHub!
